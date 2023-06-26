@@ -1,0 +1,309 @@
+body{
+    background-color: white;
+	color: black;
+    font-family: 'Courier New', Courier, monospace;
+	font-size: 20px;
+}
+.wall{
+    background-image: url("./img/wall.jpg");
+    background-repeat: repeat;
+    background-position: center center;
+    background-color: #ccc;
+    background-size: 13%;
+}
+.justify{
+    text-align: justify;
+}
+.center{
+    text-align: center;
+}
+.black {
+    background-color: #000;
+}
+.grey{
+    background-color: #eee;
+}
+.red{
+    background-color: #900;
+}
+.navbar-toggler{
+    width: auto;
+}
+#masthead{
+    position: relative;
+    top: 10vh;
+  }
+  header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: url("./img/masthead.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  @media (min-width: 992px) {
+    header.masthead {
+      height: 100vh;
+      min-height: 40rem;
+      padding-top: 4.5rem;
+      padding-bottom: 0;
+    }
+    header.masthead p {
+      font-size: 1.15rem;
+    }
+    header.masthead h1, header.masthead .h1 {
+      font-size: 3rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    header.masthead h1, header.masthead .h1 {
+      font-size: 3.5rem;
+    }
+  }
+.cowries{
+    background-image: url("./img/cowries.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+img{
+    width: 100%;
+}
+.img2{
+    width: 90%;
+}
+.a-gold{
+    color: #cc0;
+}
+.a-green{
+    color: #0c6;
+}
+.a-yellow{
+    color: #fc0;
+}
+.a-red{
+    color: #c00;
+}
+.a-white{
+    color: white;
+}
+.a-blue{
+    color: rgb(0, 166, 255);
+}
+.a-purple{
+    color: rgb(219, 112, 255);
+}
+a{
+    color: #c00;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+.button-exu{
+    background-color: black;
+    color: red;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-ogum{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-omulu{
+    background-color: black;
+    color: red;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-oxossi{
+    background-color: rgb(0, 200, 255);
+    color: rgb(174, 255, 160);
+    border-radius: 10px;
+    padding: 5px;
+    border-color: rgb(174, 255, 160);
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-oxum{
+    background-color: rgb(156, 120, 1);
+    color: rgb(255, 225, 0);
+    border-radius: 10px;
+    padding: 5px;
+    border-color: rgb(255, 225, 0);
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-logun{
+    background-color: rgb(156, 120, 1);
+    color: rgb(0, 200, 255);
+    border-radius: 10px;
+    padding: 5px;
+    border-color: rgb(255, 225, 0);
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-oxumare{
+    background-color: rgb(0, 0, 0);
+    color: rgb(174, 255, 160);
+    border-radius: 10px;
+    padding: 5px;
+    border-color: rgb(174, 255, 160);
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-oxaguia{
+    background-color:  rgb(106, 175, 221);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-yemanja{
+    background-color:  rgb(57, 151, 175);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-oxalufa{
+    background-color:  rgb(151, 151, 151);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-xango{
+    background-color: rgb(92, 24, 0);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-nana{
+    background-color: rgb(153, 0, 255);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-ossae{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-ewa{
+    background-color: #900;
+    color: pink;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: pink;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-oba{
+    background-color: yellow;
+    color: red;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-oya{
+    background-color: rgb(163, 43, 0);
+    color: pink;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: pink;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.btn{
+    width: auto;
+}
+.nav-pills{
+    background-color: #333;
+}
+.nav-link{
+    color: red;
+}
+.card-exu {
+	background-color: rgba(204, 0, 0, 0.7);
+}
+.card-ogum {
+	background-color: rgba(0, 4, 254, 0.7);
+}
+.div-black{
+	background-color: black;
+}
+.card-omulu{
+	background-color: rgb(0,0,0,0.7);
+}
+.card-oxossi{
+	background-color: rgb(0,200,255,0.7);
+}
+.card-oxum{
+	background-color: rgba(254, 240, 140, 0.7);
+}
+.card-logun{
+	background-color: rgba(0,200,255,0.7);
+}
+.card-oxaguia{
+	background-color: rgb(255,255,255,0.7);
+}
+.card-yemanja{
+	background-color: rgb(0, 205, 174,0.7);
+}
+.card-oya{
+	background-color: rgba(254, 124, 146, 0.7);
+}
+.card{
+background-color: rgb(255,255,255,0.9);
+border-radius: 10px;
+}
+hr{
+    color: #999;
+}
+.icon{
+    width: 20px;
+    height: auto;
+}
+.icon1{
+    width: 100px;
+    height: auto;
+}
+.icon2{
+    width: 50px;
+    height: auto;
+}
+.logo{
+    width: 25px;
+}
