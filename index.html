@@ -5,204 +5,180 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Living Colors</title>
-        <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
-        <!-- Bootstrap Icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <link href="style.css" rel="stylesheet" />
     </head>
     <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-sm red navbar-inverse navbar-light sticky-top">
-            <div class="container">
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button><a href="#"><img class="img-fluid icon" src="./img/logo.png" alt="logo"></a>
-                <div class="collapse navbar-collapse" id="mainNav">
-                    <div class="col-3 dropdown">
-                        <h4><a class="dropdown-toggle a-white" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Living Colors | Cores Vivas</a> 
+        <nav class="navbar navbar-expand-lg navbar-light red sticky-top">
+            <a class="navbar-brand" href="#"><img class="img-fluid icon" src="./img/logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                    <div class="navbar-nav col-lg-12">
+                            <h5><b><a class="a-white" href="#">Living Colors | Cores Vivas</a></b>
+                        <a class="dropdown-toggle a-white" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a> 
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                          <a class="dropdown-item" href="#play"><h5>Solo Adventure | Aventura Solo</h5></a>
+                          <a class="dropdown-item" href="#cowries">Cowries | Búzios</a>
                           <hr>
-                          <a class="dropdown-item" href="#racism"><h5>Racism | Racismo</h5></a>
+                          <a class="dropdown-item" href="#orishas">Orishas | Orixás</a>
                           <hr>
-                          <a class="dropdown-item" href="#epistemicide"><h5>Epistemicide | Epistemicídio</h5></a>
+                          <a class="dropdown-item" href="#epistemicide">Epistemicide | Epistemicídio</a>
                           <hr>
-                          <a class="dropdown-item" href="#cowries"><h5>Cowries | Búzios</h5></a>
+                          <a class="dropdown-item" href="#resistance">Resistance | Resistência</a>
                           <hr>
-                          <a class="dropdown-item" href="#orishas"><h5>Orishas | Orixás</h5></a>
-                          <hr>
-                          <a class="dropdown-item" href="#resistance"><h5>Resistance | Resistência</h5></a>
-                          <hr>
-                          <a class="dropdown-item" href="https://drive.google.com/file/d/1dGns9Vg_i6ViyFYJTTDr6u6te8yRX4Uf/view?usp=drive_link" target="_blank"><h5>GDD</h5></a>
-                          </h4></div>
-                </div></div>
-            </div>
-            </nav>
+                          <a class="dropdown-item" href="https://drive.google.com/file/d/1dGns9Vg_i6ViyFYJTTDr6u6te8yRX4Uf/view?usp=drive_link" target="_blank">GDD</a>
+                        </h5></div></div>
+                    </nav>
         <!-- Masthead-->
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 h-100">
-                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center" id="masthead"><a href="#play"><button class="btn btn-danger">First time? Play the solo adventure. | Primeira vez? Jogue a aventura solo.</button></a>  
+        <header>
+            <div class="container-fluid align-items-center justify-content-center text-center">
+                    <div class="row h-100 align-items-center justify-content-center text-center">
+                        <div class="embed-responsive embed-responsive-16by9 col-12 align-items-center justify-content-center text-center small">
+                                    <iframe name="frame3" class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vT7sZdSm5Mcm-BkEFEhd-I2g-u3okpwrQ_yrkFE-21p22IGblniBy3AXo7_-VnGkC0j63SdGxeFye2f/embed?start=false&loop=false&delayms=60000"></iframe><br><br>
+                            </div></div>
+                            <div class="row align-items-center justify-content-center text-center grey py-1">
+                                <div class="col-4">
+                                    <a href="#cowries"><img class="img-fluid icon2" src="./img/aberto.png" alt=""></a>
+                                </div></div>
+                                <div class="row justify-content-center small p-5">
+                                    <div class="col-lg-4 p-3">
+                                        <p class="justify small">Junto com os escravos vieram também alguns conceitos que precisamos discutir: intercâmbio x assimilação x apropriação cultural. Intercâmbio é uma troca de culturas saudável e sem hierarquias; normalmente acontece entre culturas que não têm relações de opressão e, portanto, não demonstram preconceitos entre elas. 
+                                            Assimilação é a violência extrema: a aniquilação total de uma cultura por outra por meio de substituição; comum entre culturas que apresentam níveis tecnológicos muito discrepantes, em que a cultura com tecnologia bélica mais potente submete e assimila a cultura de poderio bélico menos potente. A apropriação é uma opressão sutil, porém muito perigosa: ela se mostra por meio dos privilégios do corpo opressor sobre o corpo oprimido, reforçando o empoderamento do opressor e seu poder de escolha do opressor sobre a falta de escolha dos oprimidos. Em geral, acontece dentro da mesma cultura, entre grupos com diferentes posições sociais. O <a href="https://drive.google.com/file/d/1aXrrs9hc18pLQyg4eU21_Q329c48irHT/view?usp=sharing" target="_blank" rel="noopener noreferrer">Racismo</a> é um exemplo.
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-1"></div>
+                                            <div class="col-lg-4 p-3 small">
+                                                <p class="justify">Along with the slaves came some concepts that we need to discuss: exchange x assimilation x cultural appropriation. Exchange is a healthy and hierarchical exchange of cultures; it usually happens between cultures that do not have relations of oppression and, therefore, do not show prejudices between them. Assimilation is extreme violence: the total annihilation of one culture by another through substitution; common among cultures that present very different technological levels, in which the culture with more powerful war technology submits and assimilates the culture of less powerful war power. Appropriation is a subtle but very dangerous oppression: it shows itself through the privileges of the oppressive body over the oppressed body, reinforcing the empowerment of the oppressor and his power of choice of the oppressor over the lack of choice of the oppressed. In general, it happens within the same culture, between groups with different social positions. <a href="https://drive.google.com/file/d/1P5WUkbBQhXg3B1kKtZoT9FmYyO6EFNRb/view?usp=sharing" target="_blank" rel="noopener noreferrer">Racism</a> is an example.</p>
+                                                </div>
+                                    </div>
                 </div>
-            </div>
         </header>
-        <div class="container-fluid black" id="play">
-            <div class="row align-items-center justify-content-center text-center">
-                <div class="col-lg-8 col-sm-12 text-center">
-                    <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9 text-center">
-                        <iframe name="frame1" class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vQOZAZumIRrJUIBMDGJMTy-JigKjsxl-mafqOKfDL8SewtHfITXulZ6kc11AphxayFaBjkd8N4-M0F1/embed?start=false&loop=false&delayms=60000" scrolling="no"></iframe><br>
-                </div>
-                <div class="card-body grey text-center">
-                    <div class="container">
-                    <div class="row">
-                    <div class="dropdown col-6">
-                    <a href="cowries/index.html" target="frame1" rel="noopener noreferrer" data-toggle="tooltip" title="CLICK TO ROLL THE COWRIES"><img class="img-fluid icon" src="./img/aberto.png" alt=""></a>
-                    <a class="dropdown-toggle a-red" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">1 - 15</a>
-                    <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuLink">
-                    <a href="./mensageiros/1.html">[1]</a>
-                    <a href="./mensageiros/2.html">[2]</a> 
-                    <a href="./mensageiros/3.html">[3]</a> 
-                    <a href="./mensageiros/4.html">[4]</a> 
-                    <a href="./mensageiros/5.html">[5]</a> 
-                    <a href="./mensageiros/6.html">[6]</a> 
-                    <a href="./mensageiros/7.html">[7]</a> 
-                    <a href="./mensageiros/8.html">[8]</a> 
-                    <a href="./mensageiros/9.html">[9]</a> 
-                    <a href="./mensageiros/10.html">[10]</a>
-                     <br>
-                    <a href="./mensageiros/11.html">[11]</a> 
-                    <a href="./mensageiros/12.html">[12]</a> 
-                    <a href="./mensageiros/13.html">[13]</a> 
-                    <a href="./mensageiros/14.html">[14]</a> 
-                    <a href="./mensageiros/15a.html">[15]</a> or 
-                    <a href="./mensageiros/15b.html">[15]</a> 
-                    </div></div>
-                    <div class="col-6">
-                    <a href="https://www.youtube.com/embed/cdJUftTTQ00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen target="frame1" rel="noopener noreferrer">Racismo Religioso</a>
-                    <a class="a-red" href="https://docs.google.com/presentation/d/e/2PACX-1vQOZAZumIRrJUIBMDGJMTy-JigKjsxl-mafqOKfDL8SewtHfITXulZ6kc11AphxayFaBjkd8N4-M0F1/embed?start=false&loop=false&delayms=60000" target="frame1" rel="noopener noreferrer"><i class="bi bi-arrow-left-square"></i></a> 
-                </div></div></div></div></div></div></div></div>
-               
-        <!-- About-->
-        <section id="racism">
-            <div class="container-fluid py-5"><br><br><br><br>
-                <h2 class="text-center py-5">Racism | Racismo</h2>
-                <div class="row wall align-items-center justify-content-center text-center">
-                    <div class="col-lg-8 col-sm-12 text-center"><div class="card">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe name="frame3" class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vT7sZdSm5Mcm-BkEFEhd-I2g-u3okpwrQ_yrkFE-21p22IGblniBy3AXo7_-VnGkC0j63SdGxeFye2f/embed?start=false&loop=false&delayms=60000"></iframe><br><br>
-                        </div></div><div class="card-body grey text-center">
-                            <div class="row">
-                            <div class="col-12 grey">
-                            <a href="https://www.youtube.com/embed/mWV9R8QCVMU" target="frame3" rel="noopener noreferrer">Navio Negreiro Capoeira Song</a> <a href="https://docs.google.com/presentation/d/e/2PACX-1vT7sZdSm5Mcm-BkEFEhd-I2g-u3okpwrQ_yrkFE-21p22IGblniBy3AXo7_-VnGkC0j63SdGxeFye2f/embed?start=false&loop=false&delayms=60000" target="frame3" rel="noopener noreferrer"><i class="bi bi-arrow-left-square"></i></a> 
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div></div>
-            </section>
-        <!-- Rules-->
-        <section id="epistemicide">
-            <div class="container-fluid py-5"><br><br><br><br>
-                <h2 class="text-center py-5">Epistemicide | Epistemicídio</h2>
-                <div class="row wall align-items-center justify-content-center text-center">
-                    <div class="col-lg-8 col-sm-12 text-center">
-                        <div class="card"> 
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe name="frame5" class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vTH2EXMPH3l1Pi4rhfxNvhoT1I4-ycHZ3EgQ5KOkj7Uj5RdZ9LQr16ABYIcaGGzdfWIQqxizH1glmUV/embed?start=false&loop=false&delayms=60000"></iframe><br><br>
-                    </div>
-                    </div><div class="card-body grey text-center">
-                        <div class="row">
-                        <div class="col-12 grey">
-                        <a href="https://www.youtube.com/embed/cJAFpRZYx2A" target="frame5" rel="noopener noreferrer">When our stories are not told</a> <a href="https://docs.google.com/presentation/d/e/2PACX-1vTH2EXMPH3l1Pi4rhfxNvhoT1I4-ycHZ3EgQ5KOkj7Uj5RdZ9LQr16ABYIcaGGzdfWIQqxizH1glmUV/embed?start=false&loop=false&delayms=60000" target="frame5" rel="noopener noreferrer"><i class="bi bi-arrow-left-square"></i></a> 
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div></div>
-        </section>
+    
         <section id="cowries">
-            <div class="container-fluid py-5"><br><br><br><br>
-                <h2 class="text-center py-5">Cowries | Búzios</h2>
-                <div class="row wall align-items-center justify-content-center text-center">
-                    <div class="col-lg-8 col-sm-12 text-center">
-                        <div class="card">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe name="frame7" class="embed-responsive-item" src="cowries/index.html" scrolling="no"></iframe><br><br>
-                        </div>
-                        </div><div class="card-body grey text-center">
+            <div class="container-fluid py-5">
+                <div class="row">
+                    <div class="col-12">
+                <h2 class="text-center py-5"><br><br><br><br>Cowries | Búzios</h2>
+                </div></div>
+                <div class="row cowries h-100 align-items-center justify-content-center small py-5">
+                    <div class="col-lg-3 col-9 pt-2">
+                        <div class="card p-2">
+                            <p>Saiba que não escolhemos nossos Orixás, eles nos escolhem.Por isso, o único modo de termos certeza é perguntando aos búzios para ver qual Orixá responderá.</p>
                             <div class="container">
+                                <div class="row">
+                                    <div class="dropdown col-lg-6">
+                                <a class="dropdown-toggle a-red" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>0</b></a>
+                                <div class="dropdown-menu p-2" aria-labelledby="dropdownMenuLink">
+                                    <p>
+                                        Seu jogo diz que seu espírito é mensageiro, mas não se manifesta em transe. Jogue novamente, descartando resultado totalmente fechado até obter um dos resultados 1 a 15.
+                                    </p>
+                                </div></div>
+                                <div class="dropdown col-lg-6">
+                        <a class="dropdown-toggle a-red" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>16</b></a>
+                        <div class="dropdown-menu p-2" aria-labelledby="dropdownMenuLink">
+                            <p>
+                                Quem se manifestou em você foi o Odú Aláfia, o “Sim”, que lhe permite escolher quem será seu Orixá regente, dentre as opções 1 a 15.
+                            </p>
+                        </div></div>
+                </div>
+                                </div>
+                            </div>
+                              </div>
+                    <div class="col-lg-3 text-white text-center align-self-middle py-5">
+                        <br><br><br><br><br><br><br><br><br><br><br><br>
+                        <button class="button-omulu"><a href="https://ocandomble.com/2011/10/08/merindilogun-16-buzios/" target="_blank" rel="noopener noreferrer">Mérìndilogún: O Jogo de 16 Búzios</a></button><br><br>
+                    <div class="embed-responsive embed-responsive-4by3 py-5">
+                         <iframe class="embed-responsive-item" src="https://elianebettocchi.github.io/drawers/cowries.html" frameborder="0" scrolling="no"></iframe><br><br><br><br><br><br><br><br><br><br>
+                        </div>
+                </div>
+                <div class="col-lg-3 col-9 pt-2">
+                    <div class="card p-2">
+                        <p>Mind that we do not choose our Orishas, they choose us. Thus, the only way to be sure is by asking the cowries to see which Orisha will answer.
+                        </p>
+                        <div class="container">
                             <div class="row">
-                                <div class="dropdown col-6">
-                                <a class="dropdown-toggle a-red" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">1 - 15</a>
+                                <div class="dropdown col-lg-6">
+                            <a class="dropdown-toggle a-red" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>0</b></a>
+                            <div class="dropdown-menu p-2" aria-labelledby="dropdownMenuLink">
+                                <p>
+                                    Your game says that your spirit is a messenger, but does not manifest itself in a trance. Play again, discarding a totally closed result until you get one of the results 1 to 15.
+                                </p>
+                            </div></div>
+                            <div class="dropdown col-lg-6">
+                    <a class="dropdown-toggle a-red" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>16</b></a>
+                    <div class="dropdown-menu p-2" aria-labelledby="dropdownMenuLink">
+                        <p>
+                            Odu Alufia, “Yes”, was the one who manifested in you, which allows you to choose who will be your regent Orisha, from the options 1 to 15.
+                        </p>
+                    </div></div>
+            </div>
+                            </div>
+                        </div>
+                </div>
+                </div>   
+                        <div class="row align-items-center justify-content-center text-center grey small py-2">
+                            <div class="dropdown col-lg-6">
+                                <a class="dropdown-toggle a-red" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>1 - 15</b></a>
                                 <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuLink">
                                 <a href="./mensageiros/1.html">[1]</a>
                                 <a href="./mensageiros/2.html">[2]</a> 
                                 <a href="./mensageiros/3.html">[3]</a> 
                                 <a href="./mensageiros/4.html">[4]</a> 
-                                <a href="./mensageiros/5.html">[5]</a> 
-                                <a href="./mensageiros/6.html">[6]</a> 
+                                <a href="./mensageiros/5.html">[5]</a>
+                                <a href="./mensageiros/6.html">[6]</a>
+                                <br> 
                                 <a href="./mensageiros/7.html">[7]</a> 
                                 <a href="./mensageiros/8.html">[8]</a> 
                                 <a href="./mensageiros/9.html">[9]</a>
-                                <br> 
                                 <a href="./mensageiros/10.html">[10]</a>
                                 <a href="./mensageiros/11.html">[11]</a> 
-                                <a href="./mensageiros/12.html">[12]</a> 
+                                <a href="./mensageiros/12.html">[12]</a>
+                                <br> 
                                 <a href="./mensageiros/13.html">[13]</a> 
                                 <a href="./mensageiros/14.html">[14]</a> 
                                 <a href="./mensageiros/15a.html">[15]</a> or 
                                 <a href="./mensageiros/15b.html">[15]</a> 
-                                </div> </div>
-                                <a href="https://ocandomble.com/2011/10/08/merindilogun-16-buzios/" target="_blank" rel="noopener noreferrer">Merindilogun: o Jogo de Búzios</a> 
-                       </div></div></div>
-                        </div></div></div>
+                                </div></div>
+                       </div></div>
         </section>
          <section id="orishas">
-            <div class="container-fluid pt-5"><br><br><br><br>
-                <h2 class="text-center pt-5">Orishas | Orixás</h2>
+            <div class="container-fluid pt-5">
+                <div class="row">
+                    <div class="col-12">
+                <h2 class="text-center py-5"><br><br><br><br>Orishas | Orixás</h2>
+                </div></div>
                <div class="row wall align-items-center justify-content-center text-center">
-                    <div class="col-lg-8 col-sm-12 text-center">
-                        <div class="card">
-                            <div class="embed-responsive embed-responsive-16by9">
+                    <div class="col-12 text-center embed-responsive embed-responsive-16by9">
                                 <iframe name="frame9" class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vR_LXzdgW5AuRKi11jOM5U2ZOtmXNhSUH_6uRABL4T_Axf8XOUeu9MkKUMyo2dQQbAA_vXSlywW9xdX/embed?start=false&loop=false&delayms=60000"></iframe><br><br>
-                        </div>
-                        </div><div class="card-body grey text-center">
-                            <div class="container">
-                            <div class="row">
-                                <div class="dropdown col-lg-6">
-                            <a class="dropdown-toggle a-red" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">The Messengers | Os Mensageiros</a>
+                        </div></div>
+                        <div class="row align-items-center justify-content-center text-center grey py-1">
+                                <div class="dropdown col-12 small">
+                            <a class="dropdown-toggle a-red" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Messengers | Mensageiros</b></a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="./mensageiros/1.html">Eshu | Exu</a>
-                            <a class="dropdown-item" href="./mensageiros/2.html">Oggun | Ogum</a> 
-                            <a class="dropdown-item" href="./mensageiros/4.html">Oshosi | Oxóssi</a> 
-                            <a class="dropdown-item" href="./mensageiros/6.html">Loggun | Logun-Ede</a> 
-                            <a class="dropdown-item" href="./mensageiros/3.html">Babaluaye | Obaluiaê</a> 
-                            <a class="dropdown-item" href="./mensageiros/14.html">Osayn| Ossãe</a> 
-                            <a class="dropdown-item" href="./mensageiros/7.html">Oshumare | Oxumarê</a> 
-                            <a class="dropdown-item" href="./mensageiros/13.html">Nana Buruku | Nanã Buruke</a> 
-                            <a class="dropdown-item" href="./mensageiros/5.html">Oshun | Oxum</a> 
-                            <a class="dropdown-item" href="./mensageiros/15b.html">Obba | Obá</a>
-                            <a class="dropdown-item" href="./mensageiros/15a.html">Yewa | Ewá</a> 
-                            <a class="dropdown-item" href="./mensageiros/11.html">Oya | Oyá</a> 
-                            <a class="dropdown-item" href="./mensageiros/9.html">Yemaya | Iemanjá</a> 
-                            <a class="dropdown-item" href="./mensageiros/12.html">Shango | Xangô</a> 
-                            <a class="dropdown-item" href="./mensageiros/8.html">Oshagian | Oxaguiã</a> 
-                            <a class="dropdown-item" href="./mensageiros/10.html">Obatala | Oxalufã</a> 
+                            <a class="dropdown-item a-red" href="./mensageiros/1.html">Eshu | Exu</a>
+                            <a class="dropdown-item a-red" href="./mensageiros/2.html">Oggun | Ogum</a> 
+                            <a class="dropdown-item a-red" href="./mensageiros/4.html">Oshosi | Oxóssi</a> 
+                            <a class="dropdown-item a-red" href="./mensageiros/6.html">Loggun | Logun-Ede</a> 
+                            <a class="dropdown-item a-red" href="./mensageiros/3.html">Babaluaye | Obaluiaê</a> 
+                            <a class="dropdown-item a-red" href="./mensageiros/14.html">Osayn| Ossãe</a> 
+                            <a class="dropdown-item a-red" href="./mensageiros/7.html">Oshumare | Oxumarê</a> 
+                            <a class="dropdown-item a-red" href="./mensageiros/13.html">Nana Buruku | Nanã Buruke</a> 
+                            <a class="dropdown-item a-red" href="./mensageiros/5.html">Oshun | Oxum</a> 
+                            <a class="dropdown-item a-red" href="./mensageiros/15b.html">Obba | Obá</a>
+                            <a class="dropdown-item a-red" href="./mensageiros/15a.html">Yewa | Ewá</a> 
+                            <a class="dropdown-item a-red" href="./mensageiros/11.html">Oya | Oyá</a> 
+                            <a class="dropdown-item a-red" href="./mensageiros/9.html">Yemaya | Iemanjá</a> 
+                            <a class="dropdown-item a-red" href="./mensageiros/12.html">Shango | Xangô</a> 
+                            <a class="dropdown-item a-red" href="./mensageiros/8.html">Oshagian | Oxaguiã</a> 
+                            <a class="dropdown-item a-red" href="./mensageiros/10.html">Obatala | Oxalufã</a> 
                             </div>
                     </div>
-                            <div class="col-lg-6 grey">
-                            <a href="https://www.youtube.com/embed/aT-Ng2Yw6QM" target="frame9" rel="noopener noreferrer">Enchanted Leaves</a> <a href="https://docs.google.com/presentation/d/e/2PACX-1vR_LXzdgW5AuRKi11jOM5U2ZOtmXNhSUH_6uRABL4T_Axf8XOUeu9MkKUMyo2dQQbAA_vXSlywW9xdX/embed?start=false&loop=false&delayms=60000" target="frame9" rel="noopener noreferrer"><i class="bi bi-arrow-left-square"></i></a> 
-                        </div>
-                        
                         </div>
                     </div>
-                    </div>
-                    </div>
-                </div></div>
-                <div id="portfolio">
-                    <div class="container-fluid">
+                    <div class="container-fluid" id="portfolio">
                         <div class="row">
                                 <div class="embed-responsive embed-responsive-16by9 col-lg-3 col-sm-6">
                                     <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vRi-nR9_rsHdzfMdw8SmcsqEPX6FbTdqBnVee-TCgvgA311HTCkMrqupdPIYovqvpd6eLGZQh4KKeOY/embed?start=false&loop=false&delayms=60000" scrolling="no"></iframe><br><br>
@@ -254,26 +230,44 @@
         </div>
                             </div>
                         </div>
-                    </div>
-                </div></section>
-        <!-- Publish-->
-        <section id="resistance">
-                        <div class="container-fluid text-center"><br><br><br><br>
-                        <h2 class="text-center py-5">Afro-Resistance | Afro-Resistência</h2>
-                        <div class="row wall align-items-center justify-content-center text-center">
-                                <div class="col-lg-8 col-sm-12 text-center">
-                                    <div class="card">
-                                        <div class="embed-responsive embed-responsive-16by9">
-                                            <iframe name="frame11" class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vSBsHDFvQMrGyrrUxfckUjt8iUgKG-EHiwAKbj7rswrOdJCMQ3OGxyfOUxrcul4rMpPdvYa-hKEIPQO/embed?start=false&loop=false&delayms=60000"></iframe><br><br>
+                    </section>
+                    <section id="epistemicide">
+                        <div class="container-fluid py-5">
+                            <div class="row">
+                                <div class="col-12">
+                            <h2 class="text-center py-5"><br><br><br><br>Epistemicide | Epistemicídio</h2>
+                            </div>
+                            </div>
+                            <div class="row wall align-items-center justify-content-center text-center small">
+                                <div class="col-12 col-sm-12 text-center embed-responsive embed-responsive-16by9">
+                                        <iframe name="frame5" class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vTH2EXMPH3l1Pi4rhfxNvhoT1I4-ycHZ3EgQ5KOkj7Uj5RdZ9LQr16ABYIcaGGzdfWIQqxizH1glmUV/embed?start=false&loop=false&delayms=60000"></iframe><br><br>
+                                </div></div>
+                                <div class="row  justify-content-center small p-5">
+                                    <div class="col-lg-4 p-3">
+                                        <p class="justify small">Quantos artistas, acadêmicos, políticos, inventores negros/as você conhece? 
+                                            Quantos/as negros/as existem no seu ambiente profissional ou escolar? O Epistemicídio pode ser considerado o processo de deslegitimar as produções de espaços não hegemônicos e periféricos, desmerecendo suas produções e manifestações culturais, escritas, orais, visuais e etc. Por exemplo, <a href="https://youtu.be/-HjzUq_HxgU" target="_blank" rel="noopener noreferrer">qual é o rosto do herói?</a>
+                                            </p>
                                     </div>
-                                    </div><div class="card-body grey text-center">
-                                        <div class="row">
-                                        <div class="col-lg-12">
-                                        <a href="https://www.youtube.com/embed/JciodThpX_w" target="frame11" rel="noopener noreferrer">Black Representation in TtRPGs</a>
-                                        <a href="https://docs.google.com/presentation/d/e/2PACX-1vSBsHDFvQMrGyrrUxfckUjt8iUgKG-EHiwAKbj7rswrOdJCMQ3OGxyfOUxrcul4rMpPdvYa-hKEIPQO/embed?start=false&loop=false&delayms=60000" target="frame11" rel="noopener noreferrer"><i class="bi bi-arrow-left-square"></i></a>
-                                        </div>
+                                    <div class="col-lg-1"></div>
+                                    <div class="col-lg-4 p-3"><p class="justify small">
+                                        How many black artists, academics, politicians, inventors do you know? How many black women are there in your professional or school environment? Epistemicide can be considered the process of delegitimizing the production of non-hegemonic and peripheral spaces, neglecting their cultural, written, oral, visual productions and manifestations, etc. For instance, <a href="https://youtu.be/-HjzUq_HxgU" target="_blank" rel="noopener noreferrer">what is the hero's face?</a>
+                                    </p></div>
+                                </div>
+                            </div>
+                    </section>
+        <section id="resistance">
+            <div class="container-fluid py-5">
+                <div class="row">
+                    <div class="col-12">
+                <h2 class="text-center py-5"><br><br><br><br>Afro-Resistance | Afro-Resistência</h2>
+                </div></div>
+                        <div class="row wall align-items-center justify-content-center text-center small">
+                                        <div class="col-12 text-center embed-responsive embed-responsive-16by9">
+                                            <iframe name="frame11" class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vSBsHDFvQMrGyrrUxfckUjt8iUgKG-EHiwAKbj7rswrOdJCMQ3OGxyfOUxrcul4rMpPdvYa-hKEIPQO/embed?start=false&loop=false&delayms=60000"></iframe><br><br>
+                                    </div></div>
+                                    <div class="row align-items-center justify-content-center text-center small grey py-1">
                                         <div class="col-12 dropdown"> 
-                                        <a class="dropdown-toggle a-red" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Play the Messenger Path | Jogue o Caminho do Mensageiro</a> 
+                                        <a class="dropdown-toggle a-red" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Play the Paths <br> Jogue os Caminhos</a> 
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                       <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Eshu | Exu</a>
                                       <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Oggun | Ogum</a> 
@@ -293,29 +287,36 @@
                                       <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Obatala | Oxalufã</a>
                                     </div>
                                 </div>  
-                                      
                                     </div>
-                                    </div>
-                                </div>
-                                </div><div class="col-lg-2 text-center"></div>
-                                </div>
-                    <div class="container-fluid">
+                                    <div class="row black justify-content-center text-white small p-5">
+                                        <div class="col-lg-4 p-3">
+                                            <p class="justify small">
+                                                Cores Vivas é uma prática de <a href="https://drive.google.com/file/d/1_RkYtGD12PKx8RC9RP5PQlPdjAU_UU9s/view?usp=sharing" target="_blank" rel="noopener noreferrer">afro-resistência</a> resultante de um projeto PIBIC/CNPq AÇÕES AFIRMATIVAS 2017-2018 da UFJF, desenvolvido pelo <a href="https://www.instagram.com/coletivodescolonia/" target="_blank" rel="noopener noreferrer">Coletivo Descolônia</a>.
+                                                Esta prática foi construída na forma de uma <a href="https://drive.google.com/file/d/1eX34H5hVAjfq5f29MflXR5bgCzeV5ooT/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ludonarrativa</a>, uma dinâmica em que uma narrativa é construída em situação de jogo, um jogo cujas regras proporcionam contar ou construir uma narrativa, uma narrativa que é construída ou contada usando as regras de um jogo. A partir da vivência ludonarrativa, espera-se que os participantes produzam resultados capazes de promover transformações significativas em si mesmos e em seus entornos. 
+                                            </p>
+                                            </div>
+                                            <div class="col-lg-1"></div>
+                                            <div class="col-lg-4 p-3">
+                                                <p class="justify small">
+                                                    Living Colors is an <a href="https://drive.google.com/file/d/14nSB9uph7d8q692KYYmvXZOMQiK-FCYP/view?usp=sharing" target="_blank" rel="noopener noreferrer">afro-resistance</a> practice resulting from a PIBIC / CNPq project AFFIRMATIVE ACTIONS 2017-2018 by UFJF (Federal University of Juiz de Fora), developed by the <a href="https://www.instagram.com/coletivodescolonia/" target="_blank" rel="noopener noreferrer">Descolônia Collective</a>.
+                                                    This practice was built in the form of a <a href="https://drive.google.com/file/d/1VsDeugdr1v3vighDTVjcvfEuWJfsenuK/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ludonarrative</a>, a dynamic in which a narrative is built in a game situation, a game whose rules provide for telling or building a narrative, a narrative that is built or told using the rules of a game. From the ludonarrative experience, it is expected that the participants produce results capable of promoting significant transformations in themselves and in their surroundings.
+                                                </p>
+                                                </div>
+                                        </div>
                         <div class="row black">
                             <div class="col-12 py-5">
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeNwMmugO4RQofQ6m71V6Q3RWZFfxVg1T_BHF-72uDNX2bCrA/viewform?embedded=true" width="100%" height="820" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe></div>
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeNwMmugO4RQofQ6m71V6Q3RWZFfxVg1T_BHF-72uDNX2bCrA/viewform?embedded=true" width="100%" height="850" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe></div>
                 </div></div>
         </section>
-        <!-- Footer-->
-        <footer class="bg-light py-3">
-            <div class="container px-4 px-lg-5">
-                <div class="small text-center align-items-end"><a href="https://elianebettocchi.github.io/incorporais" target="_blank" rel="cc:attributionURL noopener noreferrer">Incorporeal LudoNarratives</a> © 2008 by <a href="https://elianebettocchi.github.io/portfolio" target="_blank" rel="cc:attributionURL noopener noreferrer">Eliane Bettocchi</a> &amp; Carlos Klimick is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a>.
-</footer>
-<script>
-    $(function () {
-      $('[data-toggle="tooltip"]').tooltip()
-    });
-    </script>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <footer>
+            <div class="container-fluid text-center py-3">
+                <div class="row align-items-end">
+        <div class="col-12 small text-center align-items-end">
+                            <a href="https://elianebettocchi.github.io/incorporais/" target="_blank" rel="noopener noreferrer">Incorporeal LudoNarratives</a> © 2008 by <a href="https://elianebettocchi.github.io/portfolio" target="_blank" rel="noopener noreferrer">Eliane Bettocchi</a> & Carlos Klimick is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>.
+                        </div>
+                    </div></div>
+                    </footer>
+       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     </body>
 </html>
