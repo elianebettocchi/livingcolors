@@ -36,17 +36,17 @@ body{
     position: relative;
     top: 10vh;
   }
-  header.masthead {
+.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
-    background: url("./img/wall.jpg");
-    background-position: center;
-    background-repeat: repeat;
+    background: url("./img/racismo.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: auto;
+    background-size: cover;
   }
   @media (min-width: 992px) {
-    header.masthead {
+.masthead {
       height: 100vh;
       min-height: 40rem;
       padding-top: 4.5rem;
@@ -60,7 +60,7 @@ body{
     }
   }
   @media (min-width: 1200px) {
-    header.masthead h1, header.masthead .h1 {
+.masthead h1, .masthead .h1 {
       font-size: 3.5rem;
     }
   }
@@ -70,6 +70,38 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
+}
+.racismo{
+    background-image: url("./img/racismo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: scroll;
+    height: 100vh;
+}
+.orixas{
+    background-image: url("./img/orixas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: scroll;
+    height: 100vh;
+}
+.epistemicidio{
+    background-image: url("./img/epistemicidio.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: scroll;
+    height: 100vh;
+}
+.resistencia{
+    background-image: url("./img/resistencia.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: scroll;
+    height: 100vh;
 }
 img{
     width: 100%;
@@ -97,6 +129,9 @@ img{
 }
 .a-purple{
     color: rgb(219, 112, 255);
+}
+.a-black{
+    color: black;
 }
 a{
     color: #c00;
