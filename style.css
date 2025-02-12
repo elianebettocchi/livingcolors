@@ -356,6 +356,17 @@ hr{
     background-color: rgb(255,255,255,0.6);
     width: 100%;
   }
+  .centered1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(255,255,255,0.8);
+    width: 60%;
+  }
   .bottom {
     position: absolute;
     top: 75%;
