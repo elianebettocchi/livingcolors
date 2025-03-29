@@ -1,8 +1,8 @@
 body{
+    background-color: rgba(254, 124, 146, 0.7);
     background-image: url("./img/wall.jpg");
     background-repeat: repeat;
     background-position: center center;
-    background-color: #ccc;
     background-size: 13%;
     font-family: 'Courier New', Courier, monospace;
 	font-size: 20px;
