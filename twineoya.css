@@ -1,10 +1,9 @@
 body{
-    background-color: rgba(254, 124, 146, 0.7);
-    background-image: url("./img/wall.jpg");
+    background: url("./img/wall.jpg") rgba(254, 124, 146, 0.7);
     background-repeat: repeat;
     background-position: center center;
     background-size: 13%;
-    background-blend-mode: overlay;
+    background-blend-mode: multiply;
     font-family: 'Courier New', Courier, monospace;
 	font-size: 20px;
 }
