@@ -3,7 +3,7 @@ body{
     background-repeat: repeat;
     background-position: center center;
     background-size: 13%;
-    background-blend-mode: multiply;
+    background-blend-mode: normal;
     font-family: 'Courier New', Courier, monospace;
 	font-size: 20px;
 }
