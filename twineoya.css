@@ -1,5 +1,6 @@
 body{
-    background-image: url("./img/wall.jpg") rgba(254, 124, 146, 0.7);
+    background-color: rgba(254, 124, 146, 0.7);
+    background-image: url("./img/wall.jpg");
     background-repeat: repeat;
     background-position: center center;
     background-size: 13%;
