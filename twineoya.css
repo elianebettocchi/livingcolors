@@ -1,5 +1,5 @@
 body{
-    background: url("./img/wall.jpg") rgba(254, 124, 146, 0.7);
+    background-image: url("./oya/wall.jpg");
     background-repeat: repeat;
     background-position: center center;
     background-size: 13%;
