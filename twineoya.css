@@ -70,11 +70,10 @@ a:hover{
     text-decoration: none;
 }
 .button-oya{
-    background-color: rgb(163, 43, 0);
-    color: pink;
+    background-color: pink;
     border-radius: 10px;
     padding: 5px;
-    border-color: pink;
+    border-color: darkred;
     font-family: 'Courier New', Courier, monospace;
     width: 100%
 }
