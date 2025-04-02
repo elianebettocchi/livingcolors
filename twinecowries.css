@@ -84,10 +84,10 @@ a:hover{
 }
 .button-grey{
     background-color: grey;
-    color: darkred;
+    color: white;
     border-radius: 10px;
     padding: 5px;
-    border-color: red;
+    border-color: #c00;
     font-family: 'Courier New', Courier, monospace;
     width: 100%
 }
