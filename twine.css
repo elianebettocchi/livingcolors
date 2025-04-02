@@ -86,7 +86,7 @@ a:hover{
     font-weight: bold;
     text-decoration: none;
 }
-.button{
+.button-grey{
     background-color: grey;
     color: darkred;
     border-radius: 10px;
