@@ -38,27 +38,13 @@ img{
 .img2{
     width: 90%;
 }
-.a-gold{
-    color: #cc0;
-}
-.a-green{
-    color: #0c6;
-}
-.a-yellow{
-    color: #fc0;
-}
 .a-red{
     color: #c00;
 }
 .a-white{
     color: white;
 }
-.a-blue{
-    color: rgb(0, 166, 255);
-}
-.a-purple{
-    color: rgb(219, 112, 255);
-}
+
 .a-black{
     color: black;
 }
@@ -76,6 +62,10 @@ a:hover{
     border-color: pink;
     font-family: 'Courier New', Courier, monospace;
     width: 100%
+}
+button:hover{
+    background-color: grey;
+    border-color: pink;
 }
 .btn{
     width: auto;
