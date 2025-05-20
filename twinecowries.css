@@ -86,7 +86,7 @@ a:hover{
     text-decoration: none;
 }
 .button-grey{
-    background-color: #666;
+    background-color: grey;
     color: white;
     border-radius: 10px;
     padding: 5px;
@@ -95,7 +95,7 @@ a:hover{
     width: 100%
 }
 button:hover{
-    background-color: grey;
+    background-color: #999;
     border-color: #c00;
 }
 .button-exu{
