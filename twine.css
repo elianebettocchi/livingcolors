@@ -6,6 +6,13 @@ body{
     background-blend-mode: multiply;
     font-family: 'Courier New', Courier, monospace;
 }
+.fundo{
+    background-image: url("./img/cardfundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+}
 .justify{
     text-align: justify;
 }
