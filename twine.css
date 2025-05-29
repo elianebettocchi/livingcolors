@@ -7,7 +7,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 .fundo{
-    background-image: url("./img/cardfundo.jpg");
+    background-image: url("./img/cardfundo.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
