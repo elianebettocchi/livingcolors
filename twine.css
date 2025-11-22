@@ -137,16 +137,16 @@ button:hover{
 }
 .button-oxossi{
     background-color: rgb(148, 201, 216);
-    color: rgb(174, 255, 160);
+    color: rgb(19, 129, 0);
     border-radius: 10px;
     padding: 5px;
-    border-color: rgb(174, 255, 160);
+    border-color: rgb(19, 129, 0);
     font-family: 'Courier New', Courier, monospace;
     width: 100%
 }
 .button-oxum{
     background-color: rgb(226, 213, 169);
-    color: rgb(255, 225, 0);
+    color: rgb(134, 121, 0);
     border-radius: 10px;
     padding: 5px;
     border-color: rgb(255, 225, 0);
@@ -155,10 +155,10 @@ button:hover{
 }
 .button-logun{
     background-color: rgb(226, 213, 169);
-    color: rgb(0, 200, 255);
+    color: rgb(0, 98, 126);
     border-radius: 10px;
     padding: 5px;
-    border-color: rgb(255, 225, 0);
+    border-color: rgb(0, 98, 126);
     font-family: 'Courier New', Courier, monospace;
     width: 100%
 }
@@ -190,11 +190,11 @@ button:hover{
     width: 100%
 }
 .button-oxalufa{
-    background-color:  rgb(151, 151, 151);
-    color: white;
+    background-color: white;
+    color: rgb(151, 151, 151);
     border-radius: 10px;
     padding: 5px;
-    border-color: white;
+    border-color: rgb(151, 151, 151);
     font-family: 'Courier New', Courier, monospace;
     width: 100%
 }
