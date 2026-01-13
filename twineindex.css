@@ -1,0 +1,348 @@
+body{
+    background-image: url("./img/quenavioeesse.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    font-family: 'Courier New', Courier, monospace;
+}
+.justify{
+    text-align: justify;
+}
+.center{
+    text-align: center;
+}
+.black {
+    background-color: #000;
+}
+.grey{
+    background-color: #ddd;
+}
+.white{
+    background-color: white;
+}
+.red{
+    background-color: #900;
+}
+img{
+    width: 100%;
+}
+.img2{
+    width: 90%;
+}
+.a-red{
+    color: #c00;
+}
+.a-white{
+    color: white;
+}
+
+.a-black{
+    color: black;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+.a-gold{
+    color: #cc0;
+}
+.a-green{
+    color: #0c6;
+}
+.a-yellow{
+    color: #fc0;
+}
+.a-red{
+    color: #c00;
+}
+.a-white{
+    color: white;
+}
+.a-blue{
+    color: rgb(0, 166, 255);
+}
+.a-purple{
+    color: rgb(219, 112, 255);
+}
+.a-black{
+    color: black;
+}
+.a-pink{
+    color: pink;
+}
+a{
+    color: #c00;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+.button-grey{
+    background-color: #999;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: #c00;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+button:hover{
+    background-color: #ccc;
+    border-color: #c00;
+}
+.button-exu{
+    background-color: black;
+    color: red;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-ogum{
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-omulu{
+    background-color: black;
+    color: red;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-oxossi{
+    background-color: rgb(0, 200, 255);
+    color: rgb(174, 255, 160);
+    border-radius: 10px;
+    padding: 5px;
+    border-color: rgb(174, 255, 160);
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-oxum{
+    background-color: rgb(156, 120, 1);
+    color: rgb(255, 225, 0);
+    border-radius: 10px;
+    padding: 5px;
+    border-color: rgb(255, 225, 0);
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-logun{
+    background-color: rgb(156, 120, 1);
+    color: rgb(0, 200, 255);
+    border-radius: 10px;
+    padding: 5px;
+    border-color: rgb(255, 225, 0);
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-oxumare{
+    background-color: rgb(0, 0, 0);
+    color: rgb(174, 255, 160);
+    border-radius: 10px;
+    padding: 5px;
+    border-color: rgb(174, 255, 160);
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-oxaguia{
+    background-color:  rgb(106, 175, 221);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-yemanja{
+    background-color:  rgb(57, 151, 175);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-oxalufa{
+    background-color:  rgb(151, 151, 151);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-xango{
+    background-color: rgb(92, 24, 0);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-nana{
+    background-color: rgb(142, 124, 195);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-ossae{
+    background-color: rgb(123, 215, 113);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-ewa{
+    background-color: pink;
+    color: red;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-oba{
+    background-color: yellow;
+    color: red;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.button-oya{
+    background-color: rgb(92, 24, 0);
+    color: pink;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: pink;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+}
+.btn{
+    width: auto;
+}
+.card-oya{
+	background-color: rgba(254, 124, 146, 0.7);
+}
+.card-exu {
+	background-color: rgba(204, 0, 0, 0.7);
+}
+.card-ogum {
+	background-color: rgba(0, 4, 254, 0.7);
+}
+.div-black{
+	background-color: black;
+}
+.card-omulu{
+	background-color: rgb(0,0,0,0.7);
+}
+.card-oxossi{
+	background-color: rgb(0,200,255,0.7);
+}
+.card-oxum{
+	background-color: rgba(254, 240, 140, 0.7);
+}
+.card-logun{
+	background-color: rgba(0,200,255,0.7);
+}
+.card-oxaguia{
+	background-color: rgb(255,255,255,0.7);
+}
+.card-yemanja{
+	background-color: rgb(0, 205, 174,0.7);
+}
+.card{
+background-color: rgb(255,255,255,0.9);
+border-radius: 10px;
+}
+hr{
+    color: #999;
+}
+.icon{
+    width: auto;
+    height: 70px;
+}
+.icon1{
+    width: 100px;
+    height: auto;
+}
+.icon2{
+    width: 50px;
+    height: auto;
+}
+.logo{
+    width: 25px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(0,0,0,0.7);
+    width: 100%;
+  }
+  .top {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
+    width: 10%;
+  }
+  .bottom {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    background-color: rgb(0,0,0,0.6);
+  }
+  .darker {
+    width: 100%;
+    color: white;
+    background-color: rgb(0,0,0,0.7);
+  }
+  .boss {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+  }
+  .glow {
+    box-shadow: 10px 10px white;
+  }
